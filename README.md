@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NiyaX — The Clean-Label Human Performance Standard
 
-## Getting Started
+> **Purity of Intent. Absolute in Output.**
 
-First, run the development server:
+NiyaX is an elite sports nutrition platform engineered for radical biochemical transparency, uncompromised athletic performance, and ethical purity.
+
+Built for combat athletes, purists, and biohackers across **Paris**, **Madrid**, and **Casablanca**.
+
+---
+
+## The Standard
+
+- **Cold Ceramic Cross-Flow Microfiltration (CFM 90% Native Isolate):** Extracted strictly under 10°C, preserving bioactive immunoglobulins with `< 0.08g` trace lactose.
+- **100% Microbial Fermentation Rennet:** Coagulated with pure fungal cultures (*Mucor miehei*) — 0% animal slaughter byproducts. Guaranteed Halal and pure by biochemical design.
+- **Supercritical CO₂ Dutch Cocoa:** Certified 0.00% alcohol and 0.00% propylene glycol solvent carriers.
+- **DigeZyme® + Reb-M Matrix:** Sweetened with non-glycemic fermented Reb-M Stevia and Thaumatin fruit protein. Zero sucralose, zero acesulfame-K, zero gut distension.
+- **Lot-by-Lot HPLC Transparency:** Every single tub features a cryptographic QR code linked to independent Eurofins / ISO-17025 laboratory assays.
+
+---
+
+## Tech Stack & Architecture
+
+- **Framework:** Next.js 16 (App Router, Turbopack, React Server Components)
+- **Styling:** Tailwind CSS v4 + Custom Dark Stealth Aesthetic & Glassmorphism
+- **Iconography:** Lucide React
+- **Early Interest Engine:** Dynamic waitlist registration API with queue position calculation, founder allocation certificates, and referral code generation
+- **Deployment:** Vercel Edge Network
+
+---
+
+## Local Development
 
 ```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Run production build
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment to Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+vercel --prod
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2026 NiyaX Performance Lab. All rights reserved.
