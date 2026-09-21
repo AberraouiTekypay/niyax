@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import RegistrationForm from "@/components/RegistrationForm";
+import CrucibleSection from "@/components/CrucibleSection";
 import TubVisualizer from "@/components/TubVisualizer";
 import ComparisonMatrix from "@/components/ComparisonMatrix";
 import BatchVerifier from "@/components/BatchVerifier";
@@ -54,7 +55,7 @@ export default function Home() {
 
               {/* Subtitle */}
               <p className="text-base sm:text-lg text-zinc-300 leading-relaxed font-sans max-w-xl">
-                The world's purest native whey isolate. Micro-filtered CFM ceramic extraction, 100% non-animal microbial rennet, and zero alcohol-based flavor carriers. Engineered for elite output across Paris, Madrid, and Casablanca.
+                The world's purest native whey isolate. Micro-filtered CFM ceramic extraction, 100% non-animal microbial rennet, and zero alcohol-based flavor carriers. Engineered for elite athletic output across Paris, Madrid, and Casablanca.
               </p>
 
               {/* Rapid Metric Badges */}
@@ -113,6 +114,14 @@ export default function Home() {
             <span className="hover:text-zinc-300 transition-colors">CERCLE TISSIER</span>
             <span className="hover:text-zinc-300 transition-colors">EUROFINS CERTIFIED</span>
           </div>
+        </section>
+
+        {/* ===================== EMOTIONAL CRUCIBLE SECTION ===================== */}
+        <CrucibleSection />
+
+        {/* ===================== INTERACTIVE TUB TEARDOWN ===================== */}
+        <section className="my-8">
+          <TubVisualizer />
         </section>
 
         {/* ===================== THREE BIOCHEMICAL PILLARS ===================== */}
@@ -190,11 +199,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
-
-        {/* ===================== INTERACTIVE TUB TEARDOWN ===================== */}
-        <section className="my-8">
-          <TubVisualizer />
         </section>
 
         {/* ===================== COMPARISON MATRIX ===================== */}
